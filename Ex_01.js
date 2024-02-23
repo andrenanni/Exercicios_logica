@@ -13,22 +13,22 @@ if (tipo !== "A" && tipo !== "G"){
 
 if (tipo == "A"){
     if (litros <= 20){
-        let desc3 = cal-0.03;
-        alert(`O total com desconto de 3% é de ${desc3}`);
+        let desc = cal*0.03;
+        alert(`O total com desconto de 3% é de ${desc}`);
     }
     else{
-        let desc5 = cal-0.05;
-        alert(`O total com desconto de 3% é de ${desc5}`);
+        let desc = cal*0.05;
+        alert(`O total com desconto de 3% é de ${desc}`);
     }
 }
 
 if (tipo == "G"){
     if (litros <= 20){
-        let desc4 = cal-0.04;
-        alert(`O total com desconto de 3% é de ${desc4}`);
+        let desc = cal*0.04;
+        alert(`O total com desconto de 3% é de ${desc}`);
     }
     else{
-        let desc6 = cal-0.06;
-        alert(`O total com desconto de 3% é de ${desc6}`);
+        let desc = cal*0.06;
+        alert(`O total com desconto de 3% é de ${desc}`);
     }
 }

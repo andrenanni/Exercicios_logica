@@ -1,14 +1,11 @@
-debugger;
-
-var num = 4;
+var num = parseInt(prompt("Digite um numero:"));
+var result = 0;
 
 if (num <=1){
     alert("Valor invalido! Informe um numero maior que 1");
 }
 
-for (let i = 0; i < num; i++) {
-    var total = 0;
-    var result = total+=i;
+for (let i = 0; i <= num; i++) {  
+    result+=i;
 }
-
-console.log (`O total entre os valores é de ${result}`);
+alert (`O total entre os valores é de ${result}`);
