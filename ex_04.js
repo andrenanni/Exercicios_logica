@@ -1,8 +1,8 @@
-var i = 0;
+let i = 0;
 var num = [];
 
 while (i < 5){
-    let valor = prompt("Digite mais um numero:");
+    let valor = prompt("Digite um numero:");
     num.push(valor);
     i++;
 }
