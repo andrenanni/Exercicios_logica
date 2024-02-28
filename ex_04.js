@@ -15,4 +15,4 @@ for (let i = 0; i < 5; i++){
     }
 }
 
-alert(maiorValor);
+alert(`O maior número é ${maiorValor}.`);
